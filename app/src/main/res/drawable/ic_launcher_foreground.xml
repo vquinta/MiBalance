@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Arco de la diadema -->
+    <path
+        android:pathData="M40,54 A14,14 0 0 1 68,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Orejera izquierda -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34.75,56.25 a5.25,5.25 0 0 1 10.5,0 v11.5 a5.25,5.25 0 0 1 -10.5,0 z" />
+
+    <!-- Orejera derecha -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62.75,56.25 a5.25,5.25 0 0 1 10.5,0 v11.5 a5.25,5.25 0 0 1 -10.5,0 z" />
+
+    <!-- Linea del deslizador de balance -->
+    <path
+        android:pathData="M43,81 L65,81"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Perilla del deslizador, ligeramente desplazada a la derecha -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57.5,75.5 a5.5,5.5 0 1 0 0.01,0 z" />
+</vector>
